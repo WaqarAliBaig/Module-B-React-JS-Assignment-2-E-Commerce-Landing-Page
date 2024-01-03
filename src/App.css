@@ -1,0 +1,204 @@
+img {
+  width: 100%;
+}
+
+/* Header Start */
+.logo {
+  width: 150px;
+}
+
+.header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 3rem;
+  list-style-type: none;
+  margin: 0;
+}
+
+.main-nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.cart-icon {
+  float: left;
+  cursor: pointer;
+}
+
+.cart-icon img {
+  width: 20px;
+}
+
+.search-icon {
+  float: left;
+  cursor: pointer;
+  padding-left: 30px;
+}
+/* Header End */
+
+/* Slide Start */
+.carousel-item .content {
+  padding-top: 80px;
+}
+
+.carousel-item .content h5 {
+  color: orangered;
+}
+
+.carousel-item .content h2 {
+  color: black;
+}
+
+.carousel-item .content p {
+  color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 50%, 50%;
+  border-radius: 50%;
+  border: 1px solid;
+  border: none;
+}
+/* Slide End */
+
+/* Banner Start */
+.banner-section .container {
+  position: relative;
+  text-align: end;
+  padding: 100px;
+}
+
+.banner-content {
+  position: absolute;
+  top: 200px;
+  right: 300px;
+  color: rgb(165, 45, 45);
+}
+
+.banner-content a {
+  color: rgb(165, 45, 45);
+}
+/* Banner End */
+
+/* Product Catagories Start */
+.catagories-home .container .catagories-header {
+  position: relative;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.product-card {
+  padding-top: 20px;
+}
+
+.product-card .title {
+  font-weight: 400;
+}
+/* Product Catagories End */
+
+/* Text Image Start */
+.text-image-section {
+  padding-top: 100px;
+}
+
+.text-image-section .container {
+  max-width: 900px;
+}
+
+.text-image-section .content-block {
+  position: relative;
+  top: 40px;
+  max-width: 310px;
+  padding-left: 40px;
+}
+
+.text-image-section .content-block h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* Text Image End */
+
+/* All Catagories Start */
+.all-catagories-home .container .all-catagories-header {
+  position: relative;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+/* All Catagories End */
+
+/* Social Media Start */
+.social-container p {
+  padding-top: 20px;
+}
+
+.social-container ul {
+  display: flex;
+  width: 150px;
+  list-style-type: none;
+  gap: 1rem;
+  position: absolute;
+  left: 5rem;
+}
+/* Social Media End */
+
+/* Footer Start */
+.footer {
+  padding-top: 70px;
+  background-color: lightgray;
+  margin-top: 60px;
+  /* padding: 60px; */
+}
+
+.footer-list h3 {
+  font-size: medium;
+}
+
+.footer-list ul {
+  list-style-type: none;
+  position: relative;
+  right: 2rem;
+}
+
+.footer-list ul li a {
+  text-decoration: none;
+  color: rgb(40, 40, 40);
+}
+
+.newsletter h3 {
+  font-size: medium;
+}
+
+.newsletter p {
+  color: rgb(40, 40, 40);
+}
+
+.copyright {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+  background-color: gray;
+  color: white;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+}
+/* Footer End */
